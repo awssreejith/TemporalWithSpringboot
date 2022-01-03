@@ -1,0 +1,10 @@
+version: '3'
+services:
+  providerservice:
+    image: providerservice
+    ports:
+      - 8089:8089
+  mainservice:
+    image: mainservice
+    ports:
+      - 8090:8090
